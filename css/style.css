@@ -1,0 +1,451 @@
+body{
+background-color: black;
+font-family: 'Montserrat', sans-serif;
+
+    
+}
+.container-videos{
+    background-color:#f2f2f2;
+    color:black;
+    padding-bottom: 20px;
+    
+}
+.container-music{
+    height:100%;
+ background: url(../background-pictures/drums.jpg) no-repeat top right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position: relative;
+  
+  color:white;
+}
+.container-form{
+    height:100%;
+ background: url(../background-pictures/microphone.jpg) no-repeat bottom  fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position: relative;
+  
+  
+}
+.callout-container{
+    height:100vh;
+ background: url(../background-pictures/guitar.jpg) no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position: relative;
+}
+
+
+.opaque-overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    background-color:rgba(0,0,0,0.5);
+    
+}
+
+.about-us{
+    text-align: center;
+    background-color: #f2f2f2;
+    color:black;
+    
+}
+
+/*------------------jumbotron-------------*/
+.jumbotron-header{
+    color:white;
+    font-weight: bold;
+    margin-bottom: 30px
+}
+.lead{
+    color:white; /*#e6e2d3*/
+}
+.jumbotron{
+     background-color:transparent;
+}
+/*-------------------block-diveder-------*/
+.block-divider{
+    width:100px;
+    height:2px;
+    border:20;
+     background-color:grey;
+}
+/*-------------------navbar-------*/
+.nav-container{
+    position:absolute;
+    top:0;
+    left:0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1
+    
+}
+.navbar{
+    margin-bottom:0;
+    padding:0;
+    width:100%;
+    background-color: rgba(0,0,0,0.25);
+}
+.navbar-brand{
+    margin-left:05px;
+    
+}
+.navbar-toggler{
+    border:none;
+    
+}
+.navbar-brand{
+    cursor: default;
+}
+.nav{
+    color:grey;
+    display:inline-block;
+    padding-right: 10px;
+    padding-left:10px;
+     transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -webkit-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+    
+}
+.nav:hover{
+    color:white;
+    display:inline-block;
+    text-decoration: none;
+    
+}.#about{
+    color:white;
+}
+
+
+.block-divider-grey{
+     background-color:grey;
+     width:40px;
+     height:1px;
+}
+.fa-play{
+    color:white;
+}
+.fa-play:hover{
+    color:#c6c6c6;;
+}
+.container{
+    max-width: 2000px;
+}
+
+
+.button{
+ background-color: white;
+  border: none;
+  color: grey;
+  padding: 1px 30px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 5px;
+  border-radius:10px;
+  transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -webkit-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+  
+}
+.button:hover{
+ background-color: #58ec56;
+  border: none;
+  color: white;
+  padding: 1px 30px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 5px;
+  border-radius:10px;
+  transition: ease-in-out 0.5;
+  
+}
+.button:active{
+ background-color: #1ec000;
+  border: none;
+  color: white;
+  padding: 1px 30px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 5px;
+  border-radius:10px;
+  transition: ease-in-out 0.5;
+  
+
+}
+.button-video{
+ background-color: white;
+  border: none;
+  color: grey;
+  padding: 1px 30px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom:30px;
+  border-radius:10px;
+  transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -webkit-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+  
+}
+.button-video:hover{
+ background-color: #58ec56;
+  border: none;
+  color: white;
+  padding: 1px 30px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 10px;
+  border-radius:10px;
+  transition: ease-in-out 0.5;
+}
+.button-video:active{
+ background-color: #1ec000;
+  border: none;
+  color: white;
+  padding: 1px 30px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 10px;
+  border-radius:10px;
+  transition: ease-in-out 0.5;
+}
+.link{
+    color:grey;
+}
+.link:hover{
+    color:white;
+    text-decoration: none;
+     transition: ease-in-out 0.5;
+    
+}
+/* music section */
+
+.white-background{
+    background-color:white;
+}
+/* --------------media queries ----------------*/
+@media(max-width:575px){
+    .text-visibilty
+    { font-size: 0px;
+     padding: 0px 0px
+        
+    }
+}
+@media(min-width:768px){
+    .margin
+    { padding-bottom: 25px;
+    color:white;
+        
+    }
+}
+@media(min-width:576px){
+    .fixed-top
+    { position:relative;
+    
+        
+    }
+}
+@media(min-width:632px){
+    .center-form{
+    margin:0 auto;
+    padding-top: 30px;
+    min-height: 240px;
+    max-width: 50%;
+    }
+}
+@media(min-width:657px){
+    .nav{
+        padding-left: 10px
+        
+    }
+   
+}
+@media(min-width:715px){
+    .nav{
+        padding-left: 20px
+        
+    }
+    .navbar-brand{
+        margin-right:40px
+    }
+}
+@media(min-width:1000px){
+    .nav{
+        padding-left:30px
+        
+    }
+    .navbar-brand{
+        margin-right: 60px
+    }
+}
+@media(min-width:1150px){
+    .navbar-brand{
+        margin-right:150px;
+        
+    }
+}         
+@media(min-width:1260px){
+    .navbar-brand{
+        margin-right: 170px
+    }
+}
+
+/* --------------media queries ----------------*/
+/* --------------media buttons ----------------*/
+
+.fa-download{
+    font-size: 30px;
+    color: grey;
+    margin-top: 5px;
+    text-shadow: 4px 4px 2px #cdcdcd;
+    transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -webkit-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+}
+.fa-download:hover{
+    color:#58ec56;
+}
+.fa-download:active{
+    color:#1ec000;
+    text-shadow: 2px 4px 2px #cdcdcd;
+}
+.page-footer{
+   margin-bottom: 30px;
+}
+.btn-secondary{
+    margin-bottom:20px;
+}
+.fb-ic{
+    font-size: 30px;
+    
+}
+.tw-ic{
+    font-size: 30px;
+}
+.gplus-ic{
+    font-size: 30px;
+    
+}
+.li-ic{
+    font-size: 30px;
+}
+.ins-ic{
+    font-size: 30px;
+}
+/* --------------media buttons ----------------*/
+/* --------------media buttons hover/active ----------------*/
+
+.button-color-white:hover{
+    color:#3b5998;
+    cursor: pointer;
+    transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -webkit-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+}
+.button-color-twitter:hover{
+    color:#00ACEE;
+    transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -webkit-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+}
+.button-color-google:hover{
+    color:#dd4b39;
+    transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -webkit-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+}
+.button-color-li:hover{
+    color:#0077b5;
+    transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -webkit-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+}
+.button-color-ins:hover{
+background: -webkit-linear-gradient(#E4405F,#E4E440);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -webkit-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+}
+
+/*-----------------------active----------------------*/
+.button-color-white:active{
+    color:#032e7c;
+    cursor: pointer;
+}
+.button-color-twitter:active{
+    color:#1b95e0;
+}
+.button-color-google:active{
+    color:#c33213;
+}
+.button-color-li:active{
+    color:blue;
+}
+.button-color-ins:active{
+background: -webkit-linear-gradient(#E4E440,#E4405F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+/* --------------media buttons hover/active ----------------*/
+
+
+.padding-right {
+
+    padding-right: 50px;
+
+}
+.white-text{
+    color:white;
+}
+.button-color-white{
+    color:white;
+}
+.button-color-twitter{
+    color:white;
+}
+.button-color-google{
+    color:white;
+}
+.button-color-li{
+    color:white;
+}
+.button-color-ins{
+    color:white;
+}
+.no-border{
+    background-color: transparent;
+    border:none;
+}
